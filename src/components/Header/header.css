@@ -1,0 +1,45 @@
+.header{
+    font-weight: 600;
+    color: #1396cb;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header .title {
+    flex: 1;
+}
+
+.header .add svg{
+    color: #fff;
+    font-size: 20px;
+}
+
+.header .add {
+    border-radius: 2px;
+    line-height: 2.5px;
+    align-self: flex-end;
+    background-color: #005073;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.header.add:active{
+    background-color: #02151d;
+}
+
+.header .closeAdd {
+    border-radius: 2px;
+    line-height: 2.5px;
+    align-self: flex-end;
+    background-color: #e57373;
+    padding: 5px 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header .closeAdd:active {
+    background-color: #db81b6;
+}

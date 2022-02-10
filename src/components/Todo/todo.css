@@ -1,0 +1,15 @@
+.todoForm {
+    background-color: blueviolet;
+}
+
+.item {
+    padding: 10px;
+    color: blueviolet;
+    margin: 10px auto;
+    border-radius: 5px;
+    display: flex;
+}
+
+.item .text{
+    flex: 1;
+}
